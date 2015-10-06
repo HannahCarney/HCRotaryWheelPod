@@ -22,10 +22,10 @@ s.summary          = "A Rotary Wheel for altering content that can be customised
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Hannah Carney" => "hannahcarneyart@gmail.com" }
-  s.source           = { :git => "hhttps://github.com/HannahCarney/HCRotaryWheelPod.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/HannahCarney/HCRotaryWheelPod.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/hannahcarneyart'
 
-  s.platform     = :ios, '9.0'
+  s.platform     = :ios, '7.1'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'

@@ -7,291 +7,254 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		012BE27BF2133B9FB83778F5 /* Pods-HCRotaryWheel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D676524A9BB040ECE2434CCB /* Pods-HCRotaryWheel_Tests-dummy.m */; };
-		0B4F8930B2C5C85FA2980AD5 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5999F582A5E042BB4BA8680D /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C78B17DA11404514E52CF58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A5A0FE3CCDD4C3EC0EDB04 /* Foundation.framework */; };
-		343E46E70A7936F646558334 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A91691EA5FDB3C25CD4D8F2 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-dummy.m */; };
-		377CF490EDF7079CAA869F84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A5A0FE3CCDD4C3EC0EDB04 /* Foundation.framework */; };
-		6A8CA08ADEC2326A570D7B68 /* HCRotaryWheel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1DD2851F3A1577E47E53844F /* HCRotaryWheel.bundle */; };
-		97DB740D1BC3D194005FA345 /* HCRotaryWheelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 97DB740C1BC3D194005FA345 /* HCRotaryWheelView.h */; settings = {ASSET_TAGS = (); }; };
-		97DB740F1BC3D199005FA345 /* HCRotaryWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DB740E1BC3D199005FA345 /* HCRotaryWheelView.m */; settings = {ASSET_TAGS = (); }; };
-		97DB74111BC3D19E005FA345 /* RotarySector.h in Headers */ = {isa = PBXBuildFile; fileRef = 97DB74101BC3D19E005FA345 /* RotarySector.h */; settings = {ASSET_TAGS = (); }; };
-		97DB74131BC3D1A3005FA345 /* RotarySector.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DB74121BC3D1A3005FA345 /* RotarySector.m */; settings = {ASSET_TAGS = (); }; };
-		97DB74181BC3D1AA005FA345 /* RotaryImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 97DB74141BC3D1AA005FA345 /* RotaryImageView.h */; settings = {ASSET_TAGS = (); }; };
-		97DB74191BC3D1AA005FA345 /* RotaryImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DB74151BC3D1AA005FA345 /* RotaryImageView.m */; settings = {ASSET_TAGS = (); }; };
-		97DB741A1BC3D1AA005FA345 /* RotaryWheelControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 97DB74161BC3D1AA005FA345 /* RotaryWheelControl.h */; settings = {ASSET_TAGS = (); }; };
-		97DB741B1BC3D1AA005FA345 /* RotaryWheelControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DB74171BC3D1AA005FA345 /* RotaryWheelControl.m */; settings = {ASSET_TAGS = (); }; };
-		E5CC3D91FDAFB8ED5462A8B1 /* Pods-HCRotaryWheel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB06D17C9F1FFC2E72B7BBAB /* Pods-HCRotaryWheel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12221F6F6D5F3B7943841130 /* RotaryWheelControl.h in Headers */ = {isa = PBXBuildFile; fileRef = D78CB5E0F4E84B701B13C768 /* RotaryWheelControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		157FF848E6DF9803178BF102 /* RotaryWheelControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C984442740133D1C8868C73 /* RotaryWheelControl.m */; };
+		3779B9B21A9CFB038B4D9750 /* RotarySector.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F2A15939D2DA3EA967DE90 /* RotarySector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D5BDAAA379ED44C97A3FE21 /* Pods-HCRotaryWheel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 669B9EFE6C2E0FCB21A33B0E /* Pods-HCRotaryWheel_Tests-dummy.m */; };
+		407A35BF574834407A732978 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BCCE4C74128E28C3B12474 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-dummy.m */; };
+		4CFF963DD82400C5B9D40ADD /* RotaryImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B258F271CDA76A76D85120 /* RotaryImageView.m */; };
+		5617EAAD504A365B02897070 /* RotarySector.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BF9E739691672188FD4107 /* RotarySector.m */; };
+		58CC32D71E2732569995ED4B /* Pods-HCRotaryWheel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 581D1A91BF06F2FB2C88B6A2 /* Pods-HCRotaryWheel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69E56AD89C21242CC1B852B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDF7C3319303AD4A639EECF /* Foundation.framework */; };
+		94922B0899C43EF7C4D1F719 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDF7C3319303AD4A639EECF /* Foundation.framework */; };
+		9853E7180636258CE1CFFCAA /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A311BDBCE2E036C44FA0DAF /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3C427E6C8CD8B4717805232 /* HCRotaryWheelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D15DE0A82816E4273276955 /* HCRotaryWheelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B71F1E95D5B2BAC737E87DDB /* RotaryImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D8B483C9545DCBF5C9BA97 /* RotaryImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9409D821DA6F3355DFFE3F2 /* HCRotaryWheel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B5B7628EBDBB70719FD6D611 /* HCRotaryWheel.bundle */; };
+		CE936DC4FBBF4928B063176E /* HCRotaryWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 123AA68A22FA1157B41FCB38 /* HCRotaryWheelView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		14553E26898447D1AE757FD5 /* PBXContainerItemProxy */ = {
+		791B72DFAC83595C0A5E490D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7927F206E7EEBCD99EAE594F /* Project object */;
+			containerPortal = CE062C15CE876E2490110200 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F15D428C4A03C9E9EFFF8A5D;
+			remoteGlobalIDString = 1F91BC41CA7046F4A3B95480;
 			remoteInfo = "Pods-HCRotaryWheel_Tests-HCRotaryWheel-HCRotaryWheel";
 		};
-		56727819C7AD86BF73B927D7 /* PBXContainerItemProxy */ = {
+		A0D5BD28D175C853990F2DD0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7927F206E7EEBCD99EAE594F /* Project object */;
+			containerPortal = CE062C15CE876E2490110200 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0CB2ACC985663422E94C722B;
+			remoteGlobalIDString = 41D4F70674C5238B8CA115FC;
 			remoteInfo = "Pods-HCRotaryWheel_Tests-HCRotaryWheel";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D2085F87F6B40869BDC8797 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HCRotaryWheel_Tests-HCRotaryWheel-prefix.pch"; sourceTree = "<group>"; };
-		1DD2851F3A1577E47E53844F /* HCRotaryWheel.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCRotaryWheel.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A91691EA5FDB3C25CD4D8F2 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HCRotaryWheel_Tests-HCRotaryWheel-dummy.m"; sourceTree = "<group>"; };
-		4FA510E04DFE78569427DA4D /* HCRotaryWheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HCRotaryWheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		510A71EDBEB98BBB886C0875 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5383FD325F747A51FB60411A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5999F582A5E042BB4BA8680D /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HCRotaryWheel_Tests-HCRotaryWheel-umbrella.h"; sourceTree = "<group>"; };
-		653069C37BB34D5CDA25FA10 /* Pods-HCRotaryWheel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HCRotaryWheel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6C9E38F49DD1289049BE07D3 /* Pods-HCRotaryWheel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCRotaryWheel_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		7576D19EEE972E68B99E7673 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCRotaryWheel_Tests-HCRotaryWheel.xcconfig"; sourceTree = "<group>"; };
-		7A0A3EECCBD32D50CCF44C2E /* Pods-HCRotaryWheel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HCRotaryWheel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		84A5A0FE3CCDD4C3EC0EDB04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		856B7B39C4A4278495255B34 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCRotaryWheel_Tests-HCRotaryWheel-Private.xcconfig"; sourceTree = "<group>"; };
-		97DB740C1BC3D194005FA345 /* HCRotaryWheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCRotaryWheelView.h; sourceTree = "<group>"; };
-		97DB740E1BC3D199005FA345 /* HCRotaryWheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCRotaryWheelView.m; sourceTree = "<group>"; };
-		97DB74101BC3D19E005FA345 /* RotarySector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotarySector.h; sourceTree = "<group>"; };
-		97DB74121BC3D1A3005FA345 /* RotarySector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotarySector.m; sourceTree = "<group>"; };
-		97DB74141BC3D1AA005FA345 /* RotaryImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotaryImageView.h; sourceTree = "<group>"; };
-		97DB74151BC3D1AA005FA345 /* RotaryImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotaryImageView.m; sourceTree = "<group>"; };
-		97DB74161BC3D1AA005FA345 /* RotaryWheelControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotaryWheelControl.h; sourceTree = "<group>"; };
-		97DB74171BC3D1AA005FA345 /* RotaryWheelControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotaryWheelControl.m; sourceTree = "<group>"; };
-		ABDC0BEC66E1D26D3E0D28AE /* Pods-HCRotaryWheel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCRotaryWheel_Tests-resources.sh"; sourceTree = "<group>"; };
-		B82A22BBD54B73030912E63A /* Pods-HCRotaryWheel_Tests-HCRotaryWheel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HCRotaryWheel_Tests-HCRotaryWheel.modulemap"; sourceTree = "<group>"; };
-		BB06D17C9F1FFC2E72B7BBAB /* Pods-HCRotaryWheel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HCRotaryWheel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D0C1764ACE96463204931825 /* Pods-HCRotaryWheel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCRotaryWheel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D58A828176623B8C4E807632 /* Pods-HCRotaryWheel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCRotaryWheel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D676524A9BB040ECE2434CCB /* Pods-HCRotaryWheel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HCRotaryWheel_Tests-dummy.m"; sourceTree = "<group>"; };
-		E075307CB132F8A272B1EFC1 /* Pods_HCRotaryWheel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCRotaryWheel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E11047B81D17286DFBE6CE13 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E2D0186A9A7FC423CF839F8E /* Pods-HCRotaryWheel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HCRotaryWheel_Tests.modulemap"; sourceTree = "<group>"; };
-		F26B768EFF68735BF4C983FD /* Pods-HCRotaryWheel_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HCRotaryWheel_Tests-environment.h"; sourceTree = "<group>"; };
+		05492A8FFC6CDE5B1C6A77E9 /* Pods-HCRotaryWheel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HCRotaryWheel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		08F2A15939D2DA3EA967DE90 /* RotarySector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RotarySector.h; sourceTree = "<group>"; };
+		123AA68A22FA1157B41FCB38 /* HCRotaryWheelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HCRotaryWheelView.m; sourceTree = "<group>"; };
+		15A0C55C213D334A3E6AE932 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E5AF0691E0DF956122972A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28B258F271CDA76A76D85120 /* RotaryImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RotaryImageView.m; sourceTree = "<group>"; };
+		397E58C2FE325430018675A1 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCRotaryWheel_Tests-HCRotaryWheel.xcconfig"; sourceTree = "<group>"; };
+		3CDF7C3319303AD4A639EECF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3D15DE0A82816E4273276955 /* HCRotaryWheelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HCRotaryWheelView.h; sourceTree = "<group>"; };
+		4F6E8EAC5B2B1D5DD1394BDD /* Pods-HCRotaryWheel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCRotaryWheel_Tests-resources.sh"; sourceTree = "<group>"; };
+		574D62A9E393F632764F9DCF /* Pods-HCRotaryWheel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HCRotaryWheel_Tests.modulemap"; sourceTree = "<group>"; };
+		581D1A91BF06F2FB2C88B6A2 /* Pods-HCRotaryWheel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HCRotaryWheel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		669B9EFE6C2E0FCB21A33B0E /* Pods-HCRotaryWheel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HCRotaryWheel_Tests-dummy.m"; sourceTree = "<group>"; };
+		6C984442740133D1C8868C73 /* RotaryWheelControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RotaryWheelControl.m; sourceTree = "<group>"; };
+		74FCE8465C0A9FF800D1FDD6 /* Pods-HCRotaryWheel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HCRotaryWheel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A311BDBCE2E036C44FA0DAF /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HCRotaryWheel_Tests-HCRotaryWheel-umbrella.h"; sourceTree = "<group>"; };
+		83C725167DF5D6D60E3D2810 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCRotaryWheel_Tests-HCRotaryWheel-Private.xcconfig"; sourceTree = "<group>"; };
+		895BA98437799017DDE8B3BE /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HCRotaryWheel_Tests-HCRotaryWheel-prefix.pch"; sourceTree = "<group>"; };
+		90A7B9CE6FEB2F84D00F5C01 /* HCRotaryWheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HCRotaryWheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A1E9FDD0D5A1FA7D719CDC /* Pods-HCRotaryWheel_Tests-HCRotaryWheel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HCRotaryWheel_Tests-HCRotaryWheel.modulemap"; sourceTree = "<group>"; };
+		A30952CDFD54CC99C41B9229 /* Pods_HCRotaryWheel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCRotaryWheel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A549808A1E1E9B883339E183 /* Pods-HCRotaryWheel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCRotaryWheel_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A5BCCE4C74128E28C3B12474 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HCRotaryWheel_Tests-HCRotaryWheel-dummy.m"; sourceTree = "<group>"; };
+		ADCA019E629CE035F58C6B5D /* Pods-HCRotaryWheel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCRotaryWheel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5B7628EBDBB70719FD6D611 /* HCRotaryWheel.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCRotaryWheel.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D8B483C9545DCBF5C9BA97 /* RotaryImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RotaryImageView.h; sourceTree = "<group>"; };
+		C1BF9E739691672188FD4107 /* RotarySector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RotarySector.m; sourceTree = "<group>"; };
+		CF7580E1B2989ACB6DCBB286 /* Pods-HCRotaryWheel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCRotaryWheel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D78CB5E0F4E84B701B13C768 /* RotaryWheelControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RotaryWheelControl.h; sourceTree = "<group>"; };
+		DD9635C42A4C98E66BDAD53D /* Pods-HCRotaryWheel_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HCRotaryWheel_Tests-environment.h"; sourceTree = "<group>"; };
+		E0E4FB5E6AB837FDBF883868 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		09C26F8D010A6547190F1158 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C78B17DA11404514E52CF58 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8ED079590B764512AE93178B /* Frameworks */ = {
+		5D7DEC08EAE1502253FD73AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE86347FA5852870C13DC3A1 /* Frameworks */ = {
+		91C435DBEAA3BDD51F197D40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				377CF490EDF7079CAA869F84 /* Foundation.framework in Frameworks */,
+				94922B0899C43EF7C4D1F719 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94C75BA9B0C6EDDE4F9D085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E56AD89C21242CC1B852B2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		194E4231225AEDD057F31F85 /* Pods-HCRotaryWheel_Tests */ = {
+		063D5204B7E55A9F149AF5C4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				510A71EDBEB98BBB886C0875 /* Info.plist */,
-				E2D0186A9A7FC423CF839F8E /* Pods-HCRotaryWheel_Tests.modulemap */,
-				653069C37BB34D5CDA25FA10 /* Pods-HCRotaryWheel_Tests-acknowledgements.markdown */,
-				7A0A3EECCBD32D50CCF44C2E /* Pods-HCRotaryWheel_Tests-acknowledgements.plist */,
-				D676524A9BB040ECE2434CCB /* Pods-HCRotaryWheel_Tests-dummy.m */,
-				F26B768EFF68735BF4C983FD /* Pods-HCRotaryWheel_Tests-environment.h */,
-				6C9E38F49DD1289049BE07D3 /* Pods-HCRotaryWheel_Tests-frameworks.sh */,
-				ABDC0BEC66E1D26D3E0D28AE /* Pods-HCRotaryWheel_Tests-resources.sh */,
-				BB06D17C9F1FFC2E72B7BBAB /* Pods-HCRotaryWheel_Tests-umbrella.h */,
-				D0C1764ACE96463204931825 /* Pods-HCRotaryWheel_Tests.debug.xcconfig */,
-				D58A828176623B8C4E807632 /* Pods-HCRotaryWheel_Tests.release.xcconfig */,
-			);
-			name = "Pods-HCRotaryWheel_Tests";
-			path = "Target Support Files/Pods-HCRotaryWheel_Tests";
-			sourceTree = "<group>";
-		};
-		404A09692AC70BCF3EE303FE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5383FD325F747A51FB60411A /* Info.plist */,
-				B82A22BBD54B73030912E63A /* Pods-HCRotaryWheel_Tests-HCRotaryWheel.modulemap */,
-				7576D19EEE972E68B99E7673 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel.xcconfig */,
-				856B7B39C4A4278495255B34 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-Private.xcconfig */,
-				3A91691EA5FDB3C25CD4D8F2 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-dummy.m */,
-				0D2085F87F6B40869BDC8797 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-prefix.pch */,
-				5999F582A5E042BB4BA8680D /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-HCRotaryWheel_Tests-HCRotaryWheel";
-			sourceTree = "<group>";
-		};
-		505B058D6514AFDEDAA1A8CF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				84A5A0FE3CCDD4C3EC0EDB04 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		51C724CD3C10E017B3D30C2C /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				194E4231225AEDD057F31F85 /* Pods-HCRotaryWheel_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		6075AF501BE54EEBE88915F9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				505B058D6514AFDEDAA1A8CF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		85E11F8CE328E6DD64C6814D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1DD2851F3A1577E47E53844F /* HCRotaryWheel.bundle */,
-				4FA510E04DFE78569427DA4D /* HCRotaryWheel.framework */,
-				E075307CB132F8A272B1EFC1 /* Pods_HCRotaryWheel_Tests.framework */,
+				B5B7628EBDBB70719FD6D611 /* HCRotaryWheel.bundle */,
+				90A7B9CE6FEB2F84D00F5C01 /* HCRotaryWheel.framework */,
+				A30952CDFD54CC99C41B9229 /* Pods_HCRotaryWheel_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B13FFF97DAE505E7EC240772 = {
+		4ABD176B40D07D5EFC16A206 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E11047B81D17286DFBE6CE13 /* Podfile */,
-				B59DD5DCDD3AF25FC6FB392F /* Development Pods */,
-				6075AF501BE54EEBE88915F9 /* Frameworks */,
-				85E11F8CE328E6DD64C6814D /* Products */,
-				51C724CD3C10E017B3D30C2C /* Targets Support Files */,
+				78AD5590FCC9434FDDF865E0 /* Classes */,
 			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
-		B59DD5DCDD3AF25FC6FB392F /* Development Pods */ = {
+		506ACAFED03FBB7BA670A227 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D5FA5E455A2EBE6B5FCFB5AF /* HCRotaryWheel */,
+				A5C963F8F4AA948BBD7B896D /* HCRotaryWheel */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		D5FA5E455A2EBE6B5FCFB5AF /* HCRotaryWheel */ = {
+		78AD5590FCC9434FDDF865E0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DAEB2A4246464C6378368F49 /* Pod */,
-				404A09692AC70BCF3EE303FE /* Support Files */,
+				3D15DE0A82816E4273276955 /* HCRotaryWheelView.h */,
+				123AA68A22FA1157B41FCB38 /* HCRotaryWheelView.m */,
+				B9D8B483C9545DCBF5C9BA97 /* RotaryImageView.h */,
+				28B258F271CDA76A76D85120 /* RotaryImageView.m */,
+				08F2A15939D2DA3EA967DE90 /* RotarySector.h */,
+				C1BF9E739691672188FD4107 /* RotarySector.m */,
+				D78CB5E0F4E84B701B13C768 /* RotaryWheelControl.h */,
+				6C984442740133D1C8868C73 /* RotaryWheelControl.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A35ADF7C3857875976E11E8A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3CDF7C3319303AD4A639EECF /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A49935868051B9DE11730E87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A35ADF7C3857875976E11E8A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5C963F8F4AA948BBD7B896D /* HCRotaryWheel */ = {
+			isa = PBXGroup;
+			children = (
+				4ABD176B40D07D5EFC16A206 /* Pod */,
+				C604331B11DA65A0529DCECA /* Support Files */,
 			);
 			name = HCRotaryWheel;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		D99E3F402E7903531D7EDC43 /* Classes */ = {
+		C604331B11DA65A0529DCECA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				97DB740C1BC3D194005FA345 /* HCRotaryWheelView.h */,
-				97DB740E1BC3D199005FA345 /* HCRotaryWheelView.m */,
-				97DB74101BC3D19E005FA345 /* RotarySector.h */,
-				97DB74121BC3D1A3005FA345 /* RotarySector.m */,
-				97DB74141BC3D1AA005FA345 /* RotaryImageView.h */,
-				97DB74151BC3D1AA005FA345 /* RotaryImageView.m */,
-				97DB74161BC3D1AA005FA345 /* RotaryWheelControl.h */,
-				97DB74171BC3D1AA005FA345 /* RotaryWheelControl.m */,
+				15A0C55C213D334A3E6AE932 /* Info.plist */,
+				95A1E9FDD0D5A1FA7D719CDC /* Pods-HCRotaryWheel_Tests-HCRotaryWheel.modulemap */,
+				397E58C2FE325430018675A1 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel.xcconfig */,
+				83C725167DF5D6D60E3D2810 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-Private.xcconfig */,
+				A5BCCE4C74128E28C3B12474 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-dummy.m */,
+				895BA98437799017DDE8B3BE /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-prefix.pch */,
+				7A311BDBCE2E036C44FA0DAF /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-umbrella.h */,
 			);
-			path = Classes;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-HCRotaryWheel_Tests-HCRotaryWheel";
 			sourceTree = "<group>";
 		};
-		DAEB2A4246464C6378368F49 /* Pod */ = {
+		CB385D24049FA2D1B5D5D4A7 /* Pods-HCRotaryWheel_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				D99E3F402E7903531D7EDC43 /* Classes */,
+				1E5AF0691E0DF956122972A3 /* Info.plist */,
+				574D62A9E393F632764F9DCF /* Pods-HCRotaryWheel_Tests.modulemap */,
+				05492A8FFC6CDE5B1C6A77E9 /* Pods-HCRotaryWheel_Tests-acknowledgements.markdown */,
+				74FCE8465C0A9FF800D1FDD6 /* Pods-HCRotaryWheel_Tests-acknowledgements.plist */,
+				669B9EFE6C2E0FCB21A33B0E /* Pods-HCRotaryWheel_Tests-dummy.m */,
+				DD9635C42A4C98E66BDAD53D /* Pods-HCRotaryWheel_Tests-environment.h */,
+				A549808A1E1E9B883339E183 /* Pods-HCRotaryWheel_Tests-frameworks.sh */,
+				4F6E8EAC5B2B1D5DD1394BDD /* Pods-HCRotaryWheel_Tests-resources.sh */,
+				581D1A91BF06F2FB2C88B6A2 /* Pods-HCRotaryWheel_Tests-umbrella.h */,
+				ADCA019E629CE035F58C6B5D /* Pods-HCRotaryWheel_Tests.debug.xcconfig */,
+				CF7580E1B2989ACB6DCBB286 /* Pods-HCRotaryWheel_Tests.release.xcconfig */,
 			);
-			path = Pod;
+			name = "Pods-HCRotaryWheel_Tests";
+			path = "Target Support Files/Pods-HCRotaryWheel_Tests";
+			sourceTree = "<group>";
+		};
+		D8D5FAC1718E12F8234223EB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB385D24049FA2D1B5D5D4A7 /* Pods-HCRotaryWheel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E0755A69D6E247C5D85317A4 = {
+			isa = PBXGroup;
+			children = (
+				E0E4FB5E6AB837FDBF883868 /* Podfile */,
+				506ACAFED03FBB7BA670A227 /* Development Pods */,
+				A49935868051B9DE11730E87 /* Frameworks */,
+				063D5204B7E55A9F149AF5C4 /* Products */,
+				D8D5FAC1718E12F8234223EB /* Targets Support Files */,
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3E9F2C9344D3BA89BEE81AAC /* Headers */ = {
+		516EBC302D2CD9F9EFB74A5D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5CC3D91FDAFB8ED5462A8B1 /* Pods-HCRotaryWheel_Tests-umbrella.h in Headers */,
-				97DB74111BC3D19E005FA345 /* RotarySector.h in Headers */,
-				97DB74181BC3D1AA005FA345 /* RotaryImageView.h in Headers */,
-				97DB741A1BC3D1AA005FA345 /* RotaryWheelControl.h in Headers */,
-				97DB740D1BC3D194005FA345 /* HCRotaryWheelView.h in Headers */,
+				58CC32D71E2732569995ED4B /* Pods-HCRotaryWheel_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE7D67859C619C6D5762228A /* Headers */ = {
+		A59B613E3DCA2E562F1C82DA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B4F8930B2C5C85FA2980AD5 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-umbrella.h in Headers */,
+				A3C427E6C8CD8B4717805232 /* HCRotaryWheelView.h in Headers */,
+				9853E7180636258CE1CFFCAA /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-umbrella.h in Headers */,
+				B71F1E95D5B2BAC737E87DDB /* RotaryImageView.h in Headers */,
+				3779B9B21A9CFB038B4D9750 /* RotarySector.h in Headers */,
+				12221F6F6D5F3B7943841130 /* RotaryWheelControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0CB2ACC985663422E94C722B /* Pods-HCRotaryWheel_Tests-HCRotaryWheel */ = {
+		1F91BC41CA7046F4A3B95480 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-HCRotaryWheel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CD539BAEEACE997422A7992 /* Build configuration list for PBXNativeTarget "Pods-HCRotaryWheel_Tests-HCRotaryWheel" */;
+			buildConfigurationList = 0D74FA437C5300278FC96D1E /* Build configuration list for PBXNativeTarget "Pods-HCRotaryWheel_Tests-HCRotaryWheel-HCRotaryWheel" */;
 			buildPhases = (
-				E917B3769F8324DF25D236C1 /* Sources */,
-				EE86347FA5852870C13DC3A1 /* Frameworks */,
-				7343EFB8027FE11F17737A62 /* Resources */,
-				FE7D67859C619C6D5762228A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B07AB072279CBB00DE813106 /* PBXTargetDependency */,
-			);
-			name = "Pods-HCRotaryWheel_Tests-HCRotaryWheel";
-			productName = "Pods-HCRotaryWheel_Tests-HCRotaryWheel";
-			productReference = 4FA510E04DFE78569427DA4D /* HCRotaryWheel.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		1864940FE08545D8046C2E34 /* Pods-HCRotaryWheel_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D0FFD73B485D5058F33C37B4 /* Build configuration list for PBXNativeTarget "Pods-HCRotaryWheel_Tests" */;
-			buildPhases = (
-				4CDBFF25117E369BCB843A72 /* Sources */,
-				09C26F8D010A6547190F1158 /* Frameworks */,
-				3E9F2C9344D3BA89BEE81AAC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2FB76912693BF70F31DF88B3 /* PBXTargetDependency */,
-			);
-			name = "Pods-HCRotaryWheel_Tests";
-			productName = "Pods-HCRotaryWheel_Tests";
-			productReference = E075307CB132F8A272B1EFC1 /* Pods_HCRotaryWheel_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F15D428C4A03C9E9EFFF8A5D /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-HCRotaryWheel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 41A3E054EFEA3FAFEBDBADA3 /* Build configuration list for PBXNativeTarget "Pods-HCRotaryWheel_Tests-HCRotaryWheel-HCRotaryWheel" */;
-			buildPhases = (
-				B17B3183CFDED22C5EC97EBF /* Sources */,
-				8ED079590B764512AE93178B /* Frameworks */,
-				F0871F4500FE3189E73D45EA /* Resources */,
+				973C5B3F8CB4F3B6B979FCED /* Sources */,
+				5D7DEC08EAE1502253FD73AA /* Frameworks */,
+				6763F4C05C14930CD1D1D241 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -299,103 +262,140 @@
 			);
 			name = "Pods-HCRotaryWheel_Tests-HCRotaryWheel-HCRotaryWheel";
 			productName = "Pods-HCRotaryWheel_Tests-HCRotaryWheel-HCRotaryWheel";
-			productReference = 1DD2851F3A1577E47E53844F /* HCRotaryWheel.bundle */;
+			productReference = B5B7628EBDBB70719FD6D611 /* HCRotaryWheel.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		41D4F70674C5238B8CA115FC /* Pods-HCRotaryWheel_Tests-HCRotaryWheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1368F348AFCBF0E7BF776F1 /* Build configuration list for PBXNativeTarget "Pods-HCRotaryWheel_Tests-HCRotaryWheel" */;
+			buildPhases = (
+				BB365FDBEAAC986187C06AF5 /* Sources */,
+				91C435DBEAA3BDD51F197D40 /* Frameworks */,
+				9F64AC2112974CF69FBF0E5C /* Resources */,
+				A59B613E3DCA2E562F1C82DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4A196E7D76ECAC82202C920 /* PBXTargetDependency */,
+			);
+			name = "Pods-HCRotaryWheel_Tests-HCRotaryWheel";
+			productName = "Pods-HCRotaryWheel_Tests-HCRotaryWheel";
+			productReference = 90A7B9CE6FEB2F84D00F5C01 /* HCRotaryWheel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7BBAEA65C2160B7D63A7687 /* Pods-HCRotaryWheel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C36FCD0BDE6D8E854B1DB2D /* Build configuration list for PBXNativeTarget "Pods-HCRotaryWheel_Tests" */;
+			buildPhases = (
+				8A5E57F818E9850F130DADD8 /* Sources */,
+				A94C75BA9B0C6EDDE4F9D085 /* Frameworks */,
+				516EBC302D2CD9F9EFB74A5D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2ABE1F47B2F3EC50941CF73 /* PBXTargetDependency */,
+			);
+			name = "Pods-HCRotaryWheel_Tests";
+			productName = "Pods-HCRotaryWheel_Tests";
+			productReference = A30952CDFD54CC99C41B9229 /* Pods_HCRotaryWheel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7927F206E7EEBCD99EAE594F /* Project object */ = {
+		CE062C15CE876E2490110200 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 7E161D7E46EAE957CB37637C /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 3C05C9EF02A5B869AA1F5947 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = B13FFF97DAE505E7EC240772;
-			productRefGroup = 85E11F8CE328E6DD64C6814D /* Products */;
+			mainGroup = E0755A69D6E247C5D85317A4;
+			productRefGroup = 063D5204B7E55A9F149AF5C4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1864940FE08545D8046C2E34 /* Pods-HCRotaryWheel_Tests */,
-				0CB2ACC985663422E94C722B /* Pods-HCRotaryWheel_Tests-HCRotaryWheel */,
-				F15D428C4A03C9E9EFFF8A5D /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-HCRotaryWheel */,
+				D7BBAEA65C2160B7D63A7687 /* Pods-HCRotaryWheel_Tests */,
+				41D4F70674C5238B8CA115FC /* Pods-HCRotaryWheel_Tests-HCRotaryWheel */,
+				1F91BC41CA7046F4A3B95480 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-HCRotaryWheel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7343EFB8027FE11F17737A62 /* Resources */ = {
+		6763F4C05C14930CD1D1D241 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A8CA08ADEC2326A570D7B68 /* HCRotaryWheel.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0871F4500FE3189E73D45EA /* Resources */ = {
+		9F64AC2112974CF69FBF0E5C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9409D821DA6F3355DFFE3F2 /* HCRotaryWheel.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4CDBFF25117E369BCB843A72 /* Sources */ = {
+		8A5E57F818E9850F130DADD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97DB740F1BC3D199005FA345 /* HCRotaryWheelView.m in Sources */,
-				012BE27BF2133B9FB83778F5 /* Pods-HCRotaryWheel_Tests-dummy.m in Sources */,
-				97DB74131BC3D1A3005FA345 /* RotarySector.m in Sources */,
-				97DB741B1BC3D1AA005FA345 /* RotaryWheelControl.m in Sources */,
-				97DB74191BC3D1AA005FA345 /* RotaryImageView.m in Sources */,
+				3D5BDAAA379ED44C97A3FE21 /* Pods-HCRotaryWheel_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B17B3183CFDED22C5EC97EBF /* Sources */ = {
+		973C5B3F8CB4F3B6B979FCED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E917B3769F8324DF25D236C1 /* Sources */ = {
+		BB365FDBEAAC986187C06AF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				343E46E70A7936F646558334 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-dummy.m in Sources */,
+				CE936DC4FBBF4928B063176E /* HCRotaryWheelView.m in Sources */,
+				407A35BF574834407A732978 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-dummy.m in Sources */,
+				4CFF963DD82400C5B9D40ADD /* RotaryImageView.m in Sources */,
+				5617EAAD504A365B02897070 /* RotarySector.m in Sources */,
+				157FF848E6DF9803178BF102 /* RotaryWheelControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2FB76912693BF70F31DF88B3 /* PBXTargetDependency */ = {
+		F2ABE1F47B2F3EC50941CF73 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HCRotaryWheel_Tests-HCRotaryWheel";
-			target = 0CB2ACC985663422E94C722B /* Pods-HCRotaryWheel_Tests-HCRotaryWheel */;
-			targetProxy = 56727819C7AD86BF73B927D7 /* PBXContainerItemProxy */;
+			target = 41D4F70674C5238B8CA115FC /* Pods-HCRotaryWheel_Tests-HCRotaryWheel */;
+			targetProxy = A0D5BD28D175C853990F2DD0 /* PBXContainerItemProxy */;
 		};
-		B07AB072279CBB00DE813106 /* PBXTargetDependency */ = {
+		F4A196E7D76ECAC82202C920 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HCRotaryWheel_Tests-HCRotaryWheel-HCRotaryWheel";
-			target = F15D428C4A03C9E9EFFF8A5D /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-HCRotaryWheel */;
-			targetProxy = 14553E26898447D1AE757FD5 /* PBXContainerItemProxy */;
+			target = 1F91BC41CA7046F4A3B95480 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-HCRotaryWheel */;
+			targetProxy = 791B72DFAC83595C0A5E490D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1E4D7930C904E9DD4AA64BEB /* Release */ = {
+		154E9853DDA18A414EA70378 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 856B7B39C4A4278495255B34 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-Private.xcconfig */;
+			baseConfigurationReference = 83C725167DF5D6D60E3D2810 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-Private.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-HCRotaryWheel_Tests";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -406,9 +406,70 @@
 			};
 			name = Release;
 		};
-		233BF5BE6E85C571546C200F /* Release */ = {
+		1B6D892370097824F502B1CA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D58A828176623B8C4E807632 /* Pods-HCRotaryWheel_Tests.release.xcconfig */;
+			baseConfigurationReference = 83C725167DF5D6D60E3D2810 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HCRotaryWheel_Tests-HCRotaryWheel/Pods-HCRotaryWheel_Tests-HCRotaryWheel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HCRotaryWheel_Tests-HCRotaryWheel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HCRotaryWheel_Tests-HCRotaryWheel/Pods-HCRotaryWheel_Tests-HCRotaryWheel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HCRotaryWheel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1EBFA4234907BE2008E10B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		399B89D1F1223523A3D55EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF7580E1B2989ACB6DCBB286 /* Pods-HCRotaryWheel_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -435,7 +496,20 @@
 			};
 			name = Release;
 		};
-		7E357E38C550BAE6D45010F3 /* Debug */ = {
+		3FFB078E7B397B7EBA2EEC85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C725167DF5D6D60E3D2810 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-HCRotaryWheel_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HCRotaryWheel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9BBC829D1E3A5AAA64EF41F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -474,9 +548,9 @@
 			};
 			name = Debug;
 		};
-		928B96C8E8A079A95CE6BA21 /* Release */ = {
+		B36C604FD13660D7C68C52DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 856B7B39C4A4278495255B34 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-Private.xcconfig */;
+			baseConfigurationReference = 83C725167DF5D6D60E3D2810 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -491,7 +565,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-HCRotaryWheel_Tests-HCRotaryWheel/Pods-HCRotaryWheel_Tests-HCRotaryWheel.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = HCRotaryWheel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -499,45 +573,11 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		BAB97E0F0E36F5BD221B4285 /* Release */ = {
+		F64D6E54F7A4240BB16CEFFB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		BF607BBF9B8E52E1598C945E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0C1764ACE96463204931825 /* Pods-HCRotaryWheel_Tests.debug.xcconfig */;
+			baseConfigurationReference = ADCA019E629CE035F58C6B5D /* Pods-HCRotaryWheel_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -564,86 +604,46 @@
 			};
 			name = Debug;
 		};
-		EC7BDA392437DC051042CC8E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 856B7B39C4A4278495255B34 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-HCRotaryWheel_Tests-HCRotaryWheel/Pods-HCRotaryWheel_Tests-HCRotaryWheel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-HCRotaryWheel_Tests-HCRotaryWheel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-HCRotaryWheel_Tests-HCRotaryWheel/Pods-HCRotaryWheel_Tests-HCRotaryWheel.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = HCRotaryWheel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EF15806A67214CCBBBA88BCB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 856B7B39C4A4278495255B34 /* Pods-HCRotaryWheel_Tests-HCRotaryWheel-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-HCRotaryWheel_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = HCRotaryWheel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		41A3E054EFEA3FAFEBDBADA3 /* Build configuration list for PBXNativeTarget "Pods-HCRotaryWheel_Tests-HCRotaryWheel-HCRotaryWheel" */ = {
+		0C36FCD0BDE6D8E854B1DB2D /* Build configuration list for PBXNativeTarget "Pods-HCRotaryWheel_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF15806A67214CCBBBA88BCB /* Debug */,
-				1E4D7930C904E9DD4AA64BEB /* Release */,
+				F64D6E54F7A4240BB16CEFFB /* Debug */,
+				399B89D1F1223523A3D55EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E161D7E46EAE957CB37637C /* Build configuration list for PBXProject "Pods" */ = {
+		0D74FA437C5300278FC96D1E /* Build configuration list for PBXNativeTarget "Pods-HCRotaryWheel_Tests-HCRotaryWheel-HCRotaryWheel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E357E38C550BAE6D45010F3 /* Debug */,
-				BAB97E0F0E36F5BD221B4285 /* Release */,
+				3FFB078E7B397B7EBA2EEC85 /* Debug */,
+				154E9853DDA18A414EA70378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CD539BAEEACE997422A7992 /* Build configuration list for PBXNativeTarget "Pods-HCRotaryWheel_Tests-HCRotaryWheel" */ = {
+		3C05C9EF02A5B869AA1F5947 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC7BDA392437DC051042CC8E /* Debug */,
-				928B96C8E8A079A95CE6BA21 /* Release */,
+				9BBC829D1E3A5AAA64EF41F4 /* Debug */,
+				1EBFA4234907BE2008E10B01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0FFD73B485D5058F33C37B4 /* Build configuration list for PBXNativeTarget "Pods-HCRotaryWheel_Tests" */ = {
+		D1368F348AFCBF0E7BF776F1 /* Build configuration list for PBXNativeTarget "Pods-HCRotaryWheel_Tests-HCRotaryWheel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF607BBF9B8E52E1598C945E /* Debug */,
-				233BF5BE6E85C571546C200F /* Release */,
+				B36C604FD13660D7C68C52DC /* Debug */,
+				1B6D892370097824F502B1CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7927F206E7EEBCD99EAE594F /* Project object */;
+	rootObject = CE062C15CE876E2490110200 /* Project object */;
 }

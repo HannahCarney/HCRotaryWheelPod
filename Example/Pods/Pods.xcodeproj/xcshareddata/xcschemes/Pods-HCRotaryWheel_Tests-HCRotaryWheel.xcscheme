@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0CB2ACC985663422E94C722B"
+               BlueprintIdentifier = "41D4F70674C5238B8CA115FC"
                BuildableName = "HCRotaryWheel.framework"
                BlueprintName = "Pods-HCRotaryWheel_Tests-HCRotaryWheel"
                ReferencedContainer = "container:Pods.xcodeproj">
