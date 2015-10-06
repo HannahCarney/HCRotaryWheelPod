@@ -5,5 +5,4 @@ use_frameworks!
 target 'HCRotaryWheel_Tests', :exclusive => true do
   pod "HCRotaryWheel", :path => "../"
 
-  
 end
