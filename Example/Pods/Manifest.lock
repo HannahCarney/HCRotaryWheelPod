@@ -1,0 +1,14 @@
+PODS:
+  - HCRotaryWheel (0.1.0)
+
+DEPENDENCIES:
+  - HCRotaryWheel (from `../`)
+
+EXTERNAL SOURCES:
+  HCRotaryWheel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HCRotaryWheel: 5c40f3e2ab991fc0c1b1a7dfaa3c3378971cd045
+
+COCOAPODS: 0.37.2

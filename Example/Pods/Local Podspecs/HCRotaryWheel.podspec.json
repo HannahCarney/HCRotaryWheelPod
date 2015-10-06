@@ -1,0 +1,25 @@
+{
+  "name": "HCRotaryWheel",
+  "version": "0.1.0",
+  "summary": "A short description of HCRotaryWheel.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/HCRotaryWheel",
+  "license": "MIT",
+  "authors": {
+    "Hannah Carney": "hannahcarneyart@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/HCRotaryWheel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "HCRotaryWheel": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
