@@ -52,27 +52,6 @@ static float maxAlphavalue = 1.0;
     _background = [UIColor redColor];
     self.layer.contentsScale = [UIScreen mainScreen].scale;
     self.numberOfSections = 6;
-    self.sectorView.image = [UIImage imageNamed:@"danphone"
-                                       inBundle:[NSBundle bundleForClass:[self class]]
-                  compatibleWithTraitCollection:nil];
-    self.rotaryImage1 = [UIImage imageNamed:@"danphone"
-                                   inBundle:[NSBundle bundleForClass:[self class]]
-              compatibleWithTraitCollection:nil];
-    self.rotaryImage2 = [UIImage imageNamed:@"danphone"
-                                   inBundle:[NSBundle bundleForClass:[self class]]
-              compatibleWithTraitCollection:nil];
-    self.rotaryImage3 = [UIImage imageNamed:@"danphone"
-                                   inBundle:[NSBundle bundleForClass:[self class]]
-              compatibleWithTraitCollection:nil];
-    self.rotaryImage4 = [UIImage imageNamed:@"danphone"
-                                   inBundle:[NSBundle bundleForClass:[self class]]
-              compatibleWithTraitCollection:nil];
-    self.rotaryImage5 = [UIImage imageNamed:@"danphone"
-                                   inBundle:[NSBundle bundleForClass:[self class]]
-              compatibleWithTraitCollection:nil];
-    self.rotaryImage6 = [UIImage imageNamed:@"danphone"
-                                   inBundle:[NSBundle bundleForClass:[self class]]
-              compatibleWithTraitCollection:nil];
 }
 
 -(void)drawRect:(CGRect)rect
@@ -140,6 +119,14 @@ static float maxAlphavalue = 1.0;
         {
             self.sectorView.image = self.rotaryImage6;
         }
+        if (self.sectorView.tag == 6)
+        {
+            self.sectorView.image = self.rotaryImage7;
+        }
+        if (self.sectorView.tag == 7)
+        {
+            self.sectorView.image = self.rotaryImage8;
+        }
         [sectorArray addObject:im];
         
         self.userInteractionEnabled = YES;
@@ -149,6 +136,16 @@ static float maxAlphavalue = 1.0;
         
         // Add image view to container
         [container addSubview:im];
+    }
+    [sectorArray addObject:im];
+    
+    self.userInteractionEnabled = YES;
+    
+    im.userInteractionEnabled = YES;
+    self.sectorView.userInteractionEnabled = YES;
+    
+    // Add image view to container
+    [container addSubview:im];
         
     }
     container.userInteractionEnabled = NO;

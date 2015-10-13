@@ -30,6 +30,8 @@ IB_DESIGNABLE
 @property (nonatomic) IBInspectable UIImage *rotaryImage4;
 @property (nonatomic) IBInspectable UIImage *rotaryImage5;
 @property (nonatomic) IBInspectable UIImage *rotaryImage6;
+@property (nonatomic) IBInspectable UIImage *rotaryImage7;
+@property (nonatomic) IBInspectable UIImage *rotaryImage8;
 @property (nonatomic, strong) UIView *container;
 @property (nonatomic, retain) NSTimer *timer;
 @property CGAffineTransform startTransform;
