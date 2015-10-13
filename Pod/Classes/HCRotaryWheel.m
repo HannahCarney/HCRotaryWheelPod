@@ -136,16 +136,6 @@ static float maxAlphavalue = 1.0;
         
         // Add image view to container
         [container addSubview:im];
-    }
-    [sectorArray addObject:im];
-    
-    self.userInteractionEnabled = YES;
-    
-    im.userInteractionEnabled = YES;
-    self.sectorView.userInteractionEnabled = YES;
-    
-    // Add image view to container
-    [container addSubview:im];
         
     }
     container.userInteractionEnabled = NO;
