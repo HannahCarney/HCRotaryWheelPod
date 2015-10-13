@@ -37,7 +37,7 @@ Edit in Attributes Inspector
 
 <a href="http://www.freeimagehosting.net/commercial-photography/illinois/chicago/"><img src="http://i.imgur.com/z0CzEyI.png" alt="Chicago commercial photographers"></a>
 
-## How to use
+## How to use Objective-C
 
 In your ViewController.h drag your HCRotaryWheelView as an IBOutlet and add RotaryProtocol to call Delegate Methods
 
