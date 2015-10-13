@@ -1,23 +1,23 @@
 //
 //  HCRotaryWheelView.m
-//  RotaryWheel
+//  DigitalFitness
 //
-//  Created by Hannah Carney on 05/10/2015.
-//  Copyright © 2015 Hannah Carney. All rights reserved.
+//  Created by Hannah Carney on 01/10/2015.
+//  Copyright © 2015 Daniel Atherton. All rights reserved.
 //
 
-#import "HCRotaryWheelView.h"
+#import "HCRotaryWheel.h"
 #import "RotaryImageView.h"
 #import "RotarySector.h"
 #import "RotaryWheelControl.h"
 
-@implementation HCRotaryWheelView
+@implementation HCRotaryWheel
 {
     NSMutableArray *imageArray;
     NSMutableArray *sectorArray;
 }
 
-HCRotaryWheelView *wheel = nil;
+HCRotaryWheel *wheel = nil;
 
 static float minAlphavalue = 0.6;
 static float maxAlphavalue = 1.0;
@@ -45,16 +45,6 @@ static float maxAlphavalue = 1.0;
         
     }
     return self;
-}
-
-- (void)setNeedsLayout {
-    [super setNeedsLayout];
-    [self setNeedsDisplay];
-}
-
-- (void)prepareForInterfaceBuilder {
-    
-    [self initialSetup];
 }
 
 -(void)initialSetup

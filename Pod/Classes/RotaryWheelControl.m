@@ -14,7 +14,7 @@
     CGPoint touchPoint;
     CGPoint touchPoint2;
     NSInteger dist;
-    HCRotaryWheelView *wheel;
+    HCRotaryWheel *wheel;
 }
 
 static float deltaAngle;
@@ -22,7 +22,7 @@ static float minAlphavalue = 0.6;
 
 @synthesize startTransform;
 
--(void)setUpControlWithSelf:(HCRotaryWheelView*)rotaryWheel andImageArray:(NSArray *)imageArray
+-(void)setUpControlWithSelf:(HCRotaryWheel*)rotaryWheel andImageArray:(NSArray *)imageArray
 {
     wheel = rotaryWheel;
     imArray = imageArray;

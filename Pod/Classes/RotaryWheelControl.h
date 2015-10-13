@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HCRotaryWheelView.h"
+#import "HCRotaryWheel.h"
 
 @interface RotaryWheelControl : UIControl
 
 @property CGAffineTransform startTransform;
 
--(void)setUpControlWithSelf:(HCRotaryWheelView*)rotaryWheel andImageArray:(NSArray *)imageArray;
+-(void)setUpControlWithSelf:(HCRotaryWheel*)rotaryWheel andImageArray:(NSArray *)imageArray;
 
 @end

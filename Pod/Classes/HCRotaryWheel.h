@@ -1,26 +1,27 @@
 //
-//  HCRotaryWheelView.h
+//  HCRotaryWheel.h
 //  RotaryWheel
 //
-//  Created by Hannah Carney on 05/10/2015.
+//  Created by Hannah Carney on 01/10/2015.
 //  Copyright © 2015 Hannah Carney. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 #import "RotaryImageView.h"
-
-IB_DESIGNABLE
 
 @protocol RotaryProtocol <NSObject>
 
 - (void) wheelDidChangeValue:(int)currentSector;
-
 @end
 
-@interface HCRotaryWheelView : UIView
+
+IB_DESIGNABLE
+
+@interface HCRotaryWheel : UIView
 
 @property (weak) id <RotaryProtocol> delegate;
-@property (nonatomic) IBInspectable UIColor *background;
+@property (nonatomic, strong) IBInspectable UIColor* background;
 @property (nonatomic) IBInspectable int numberOfSections;
 @property (nonatomic) IBInspectable RotaryImageView *sectorView;
 @property (nonatomic) IBInspectable UIImage *rotaryImage1;
@@ -29,10 +30,10 @@ IB_DESIGNABLE
 @property (nonatomic) IBInspectable UIImage *rotaryImage4;
 @property (nonatomic) IBInspectable UIImage *rotaryImage5;
 @property (nonatomic) IBInspectable UIImage *rotaryImage6;
-@property (nonatomic) UIView *container;
-@property (nonatomic) NSTimer *timer;
+@property (nonatomic, strong) UIView *container;
+@property (nonatomic, retain) NSTimer *timer;
 @property CGAffineTransform startTransform;
-@property (nonatomic) NSMutableArray *sectors;
+@property (nonatomic, strong) NSMutableArray *sectors;
 @property int currentSector;
 @property (nonatomic) BOOL timerDoesExist;
 

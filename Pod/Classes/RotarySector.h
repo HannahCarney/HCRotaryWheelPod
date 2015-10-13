@@ -6,7 +6,7 @@
 //  Copyright © 2015 Hannah Carney. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 @interface RotarySector : NSObject
 
