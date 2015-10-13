@@ -19,7 +19,7 @@ it, simply add the following line to your Podfile:
 ```ruby
 use_frameworks!
 
-pod 'HCRotaryWheel', '~> 0.1.1' 
+pod 'HCRotaryWheel', '~> 0.1.2' 
 ```
 ### Note
 adding use_frameworks! allows for Cocoapods to parse IBDesignable elements
