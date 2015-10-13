@@ -91,6 +91,53 @@ In ViewController.m
         return text;
     }
 
+##How to use Swift
+   
+    import UIKit
+    import HCRotaryWheel
+    
+    class ViewController: UIViewController, RotaryProtocol {
+    
+        
+        @IBOutlet weak var textField: UITextField!
+        @IBOutlet weak var hcview: HCRotaryWheel!
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            self.hcview.delegate = self
+            self.textField.text = "Bear"
+            // Do any additional setup after loading the view, typically from a nib.
+        }
+    
+        override func didReceiveMemoryWarning() {
+            super.didReceiveMemoryWarning()
+            // Dispose of any resources that can be recreated.
+        }
+    
+        func wheelDidChangeValue(currentSector: Int32) {
+            self.textField.text = self.getDescriptionText(currentSector);
+        }
+        
+        func getDescriptionText(newValue :Int32) -> String
+        {
+            switch newValue {
+            case 0:
+                return "Bear"
+            case 1:
+                return "Monkey"
+            case 2:
+                return "Dog"
+            case 3:
+                return "Ghost"
+            case 4:
+                return "Peace"
+            case 5:
+                return "Alien"
+            default:
+                return "Bear"
+            }
+        }
+
 ## Author
 
 Hannah Carney, hannahcarneyart@gmail.com
