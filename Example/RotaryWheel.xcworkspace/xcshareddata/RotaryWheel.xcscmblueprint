@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3AA3E04D5787A100609073C55FA37D39DFC637AC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3AA3E04D5787A100609073C55FA37D39DFC637AC" : 0,
+    "751581B09C06FDD18CC6458BC8DF2B66B1443CD7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "83C430D3-ACB9-4594-BF80-4D9DF4935638",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3AA3E04D5787A100609073C55FA37D39DFC637AC" : "RotaryWheel\/",
+    "751581B09C06FDD18CC6458BC8DF2B66B1443CD7" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RotaryWheel",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RotaryWheel.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:HannahCarney\/RotaryWheel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3AA3E04D5787A100609073C55FA37D39DFC637AC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:HannahCarney\/HCRotaryWheelPod.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "751581B09C06FDD18CC6458BC8DF2B66B1443CD7"
+    }
+  ]
+}
