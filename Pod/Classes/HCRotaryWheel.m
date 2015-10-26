@@ -17,7 +17,7 @@
     NSMutableArray *sectorArray;
 }
 
-HCRotaryWheel *wheel = nil;
+HCRotaryWheel *wheel;
 
 static float minAlphavalue = 0.6;
 static float maxAlphavalue = 1.0;
@@ -52,13 +52,26 @@ static float maxAlphavalue = 1.0;
     _background = [UIColor redColor];
     self.layer.contentsScale = [UIScreen mainScreen].scale;
     self.numberOfSections = 6;
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(stopTimer)
+     name:UIApplicationDidEnterBackgroundNotification
+     object:nil];
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(startTimer)
+     name:UIApplicationWillEnterForegroundNotification
+     object:nil];
 }
 
 -(void)drawRect:(CGRect)rect
 {
+    CGContextClearRect(UIGraphicsGetCurrentContext(), rect);
     // Draw for interface builder
     CGContextRef context = UIGraphicsGetCurrentContext();
+    
     CGRect myFrame = CGRectMake(rect.origin.x, rect.origin.y, rect.size.width, rect.size.height);
+    
     wheel.background = _background;
     
     [_background set];
@@ -67,7 +80,9 @@ static float maxAlphavalue = 1.0;
     sectorArray = [NSMutableArray array];
     // Draw wheel
     self.currentSector = 0;
-    
+    [self.delegate wheelDidChangeValue:currentSector];
+    [container removeFromSuperview];
+    container = nil;
     container = [[UIView alloc] initWithFrame:rect];
     CGFloat angleSize = 2*M_PI/self.numberOfSections;
     for (int i = 0; i < self.numberOfSections; i++) {
@@ -85,13 +100,9 @@ static float maxAlphavalue = 1.0;
         // Set sector image
         float offset = rect.size.height/9;
         float iconSize = 2.2 * offset;
-        
         self.sectorView = [[RotaryImageView alloc] initWithFrame: CGRectMake(offset, offset, iconSize, iconSize)];
-        
-        
         self.sectorView.transform = CGAffineTransformMakeRotation(-1 * (angleSize*i + .8));
         [im addSubview:self.sectorView];
-        
         
         [imageArray addObject:self.sectorView];
         self.sectorView.tag = i;
@@ -136,7 +147,6 @@ static float maxAlphavalue = 1.0;
         
         // Add image view to container
         [container addSubview:im];
-        
     }
     container.userInteractionEnabled = NO;
     
@@ -257,6 +267,7 @@ static float maxAlphavalue = 1.0;
 }
 
 - (void) buildSectorsEven {
+    
     //  Define sector length
     CGFloat fanWidth = M_PI*2/self.numberOfSections;
     // Set initial midpoint
