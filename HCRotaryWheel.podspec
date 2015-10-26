@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "HCRotaryWheel"
-  s.version          = "0.1.5"
+  s.version          = "1.0"
 s.summary          = "A Rotary Wheel for altering content that can be customised in Interface Builder."
 
 # This description is used to generate tags and improve search results.
