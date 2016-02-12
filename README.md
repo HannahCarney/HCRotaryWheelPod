@@ -26,7 +26,7 @@ use_frameworks!
 pod 'HCRotaryWheel', '~> 1.1' 
 ```
 ### Note
-adding use_frameworks! allows for Cocoapods to parse IBDesignable elements
+adding use_frameworks! allows for CocoaPods to parse IBDesignable elements
 
 ## Manual Installation
 
